@@ -1,5 +1,18 @@
 @import "utils/mixins/container";
+@import "utils/variables";
+@import "utils/imports";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
 
 body {
-  @include container;
+  font-family: $font;
+}
+
+.container {
+  @include container(false);
 }

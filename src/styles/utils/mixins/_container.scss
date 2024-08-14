@@ -1,7 +1,11 @@
-@mixin container {
+@mixin container($top) {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+
+  @if $top {
+    padding-top: 30px;
+  }
 }
 
 @mixin center($isFullCenter) {
