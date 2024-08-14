@@ -26,15 +26,10 @@
       }
     }
   }
+
+  @media screen and (max-width: 500px) {
+    * {
+      color: red;
+    }
+  }
 }
-
-/**
-
-<nav className={styles.navbar}>
-        <ul>
-          {items.map((item) => (
-            <li key={item.url}>{item.label}</li>
-          ))}
-        </ul>
-</nav>
-**/
