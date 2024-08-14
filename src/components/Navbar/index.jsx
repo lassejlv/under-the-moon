@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 
 export default function Navbar() {
   /**
-   * @type {Array<{label: string, url: string}>}
+   * @type {Array<{label: string, url: string}>} - Array of items to be displayed in the navbar
    */
   const items = [
     {
