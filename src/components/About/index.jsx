@@ -1,6 +1,5 @@
 import styles from "./index.module.scss";
-
-import { ButtonOutline } from "../Button";
+import { ButtonOutline } from "@/components/Button";
 
 export default function About() {
   return (
