@@ -22,7 +22,7 @@
 
   .about {
     &:first-child {
-      background-image: url('./gallery/Frame 4.png');
+      background-image: url('/Frame4.png');
       background-blend-mode: darken;
       background-position: center;
       background-size: cover;
@@ -31,7 +31,7 @@
     }
 
     &:last-child {
-      background-image: url('./gallery/Frame 4 (1).png');
+      background-image: url('/Frame4(1).png');
       background-blend-mode: darken;
       background-position: center;
       background-size: cover;
