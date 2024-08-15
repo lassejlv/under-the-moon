@@ -21,9 +21,46 @@ export default function About() {
         </p>
 
         <div className={styles.bottom}>
-          <ButtonOutline>Læs Mere</ButtonOutline>
+          <ButtonOutline>LÆSE MERE</ButtonOutline>
         </div>
       </div>
+
+      {/* _____________________________ */}
+      <section className={styles.sectionAbout}>
+        <div className={styles.about}>
+          <h1>One 2 One</h1>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus,
+            placeat vitae. Facere temporibus, nostrum ab in eligendi tenetur
+            suscipit iusto maxime distinctio, quo vero blanditiis alias commodi
+            eum qui est. Beatae quos consequuntur corrupti, totam corporis vel
+            ipsum eum explicabo.
+          </p>
+
+          <div className={styles.bookButton}>
+            <ButtonOutline className={styles.aboutButton}>BOOK TID</ButtonOutline>
+          </div>
+        </div>
+
+
+        {/* _____________________________ */}
+        <div className={styles.about}>
+          <h1>Loyalty Free</h1>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus,
+            placeat vitae. Facere temporibus, nostrum ab in eligendi tenetur
+            suscipit iusto maxime distinctio, quo vero blanditiis alias commodi
+            eum qui est. Beatae quos consequuntur corrupti, totam corporis vel
+            ipsum eum explicabo.
+          </p>
+
+          <div className={styles.bottom}>
+            <ButtonOutline className={styles.aboutButton}>LÆSE MERE</ButtonOutline>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

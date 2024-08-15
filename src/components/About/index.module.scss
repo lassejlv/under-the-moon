@@ -7,8 +7,41 @@
   text-align: center;
   gap: 20px;
 
+
   .bottom {
     display: flex;
     gap: 20px;
+  }
+}
+
+.sectionAbout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 1rem;
+
+  .about {
+    &:first-child {
+      background-image: url('./gallery/Frame 4.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    &:last-child {
+      background-image: url('./gallery/Frame 4 (1).png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+  }
+
+
+  .aboutButton {
+    background-color: #1F1F1F;
+    border: #fefefe;
+    color: #fefefe;
   }
 }

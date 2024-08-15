@@ -1,0 +1,92 @@
+.footerGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+    background-color: #262626;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+
+    h4 {
+        padding-bottom: 2rem;
+    }
+
+    li {
+        padding-bottom: 0.5rem;
+    }
+
+    .signupFooter {
+        display: block;
+
+        input {
+            display: block;
+            padding: 10px;
+            width: 400px;
+            margin-bottom: 1rem ;
+        }
+    }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+
+        .soMeLinks {
+            display: flex;
+            flex-direction: column;
+
+            h4 {
+                padding-bottom: 0;
+                padding-top: 2rem;
+            }
+
+            .circleBox {
+                display: flex;
+
+                .footerCircle {
+                    width: 30px;
+                    height: 30px;
+                    background-color: white;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin: 10px;
+                }
+            }
+        }
+
+
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .footerContact {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+#footerButton {
+    background: none;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 150px;
+
+    &:hover {
+        background: #000;
+    }
+}
