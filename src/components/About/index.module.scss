@@ -23,6 +23,7 @@
   .about {
     &:first-child {
       background-image: url('./gallery/Frame 4.png');
+      background-blend-mode: darken;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -31,6 +32,7 @@
 
     &:last-child {
       background-image: url('./gallery/Frame 4 (1).png');
+      background-blend-mode: darken;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -41,7 +43,7 @@
 
   .aboutButton {
     background-color: #1F1F1F;
-    border: #fefefe;
     color: #fefefe;
+    border: 1px solid #fefefe;
   }
 }
